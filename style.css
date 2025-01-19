@@ -1,0 +1,228 @@
+*{
+  margin: 0px ;
+  padding: 0px ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-color:antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nrmlpages{
+    height: 100vh;
+    padding: 10px;
+
+}
+
+.textSection{
+
+    font-family: "Bona Nova SC", serif;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 2px 10px black;
+  
+}
+
+.mainpara{
+    font-size: 17px;
+    margin: 0px 0px 10px 0px;
+}
+
+.pageHeadings{
+    font-size: 50px;
+    font-family: "Bona Nova SC", serif;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.mainpoints{
+    font-weight: bolder;
+    list-style-position: inside;
+    
+}
+
+.subpoints{
+    list-style-position: inside;
+    list-style-type:disc;
+}
+
+
+
+
+
+/*--------------- Navigation-------------------------*/
+
+header{
+    background-color: rgb(250, 235, 215);
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.447);
+    box-shadow: 0px 2px 10px black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 5;
+}
+
+header img{
+    height: 60px;
+    margin: 5px 0px 0px 0px ;
+   
+}
+
+header nav{
+    width: 90%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+header nav ul a{
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+header nav ul li a:hover{
+    color: blue;
+    
+    
+}
+
+
+/*--------------- Page 01----------------------------*/
+
+
+
+#page01 video{
+  width: 100%;
+}
+
+#page01 .textSection{
+    position: absolute;
+    right: 80px;
+    bottom: 200px;
+}
+
+
+
+
+/*--------------- Page 02----------*/
+
+
+
+
+
+
+
+#page02 .subpara{
+  padding: 0px 0px 0px 16px;
+  margin: 0px 0px 20px 0px;
+}
+
+#page02 .mainpara video{
+    float:right;
+    height: 400px;
+    margin: 10px ;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    box-shadow: 2px 2px 10px black;
+}
+
+
+
+
+
+
+
+
+/*--------------- Page 03----------------------------*/
+
+#page03{
+    background-image: url(images/doctors.jpg);
+    position: relative;
+}
+
+#page03 .textSection{
+    right: 50px;
+    bottom: 200px;
+    position: absolute;
+}
+
+
+
+/*----------------- Page 04  ----------------------*/
+
+#page04 .subpoints{
+  margin: 10px 0px 10px 18px;
+}
+
+#page04 .mainpoints{
+    margin: 20px 0px 0px 0px ;
+}
+
+#page04 img{
+    float: right;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    box-shadow: 2px 2px 10px black;
+}
+
+#page04 footer{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Scrollbar */
+
+&::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px; 
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: antiquewhite; 
+    border-radius: 5px; 
+    border: 1px solid gray; 
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #4178a4; 
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.692); 
+
+  }
+
+  &::-webkit-scrollbar-track:hover {
+    background: #e0e0e0; 
+  }
+
+

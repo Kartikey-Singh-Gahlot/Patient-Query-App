@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Patient Query App</title>
+    <link rel="icons" >
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="queries.css">
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="images/KaraSuno_Meds_Logobgrem.png">
+            <nav>
+                  <ul>
+                    <li><a href="index.html">About us</a></li>
+                    <li><a href="queries.html">Queries</a></li>
+                    <li><a href="index.html#page04">Contact us</a></li>
+                  </ul>
+            </nav>
+    </header>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Queries Box</h1>
+        </div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input-container">
+            <input type="text" id="user-input" placeholder="Ask your query...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="queries.js"></script>
+</body>
+</html>
